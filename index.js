@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-    res.send('Hello World! Welcome to Home!!');
+    res.send(`Hello World! Welcome to Home!!`);
 });
 
 // Create a Server
