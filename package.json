@@ -1,0 +1,27 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "devops pipeline test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parameswar-mondal-fission/nodetest.git"
+  },
+  "keywords": [
+    "azure",
+    "pipeline"
+  ],
+  "author": "param",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parameswar-mondal-fission/nodetest/issues"
+  },
+  "homepage": "https://github.com/parameswar-mondal-fission/nodetest#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
