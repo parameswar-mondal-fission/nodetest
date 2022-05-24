@@ -1,0 +1,8 @@
+
+node_modules
+.env
+
+# nyc test coverage
+.nyc_output
+*.zip
+.vscode/
