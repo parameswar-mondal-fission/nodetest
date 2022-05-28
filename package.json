@@ -4,7 +4,7 @@
   "description": "devops pipeline test",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "jest test/sample.test.js"
   },
   "repository": {
@@ -22,7 +22,12 @@
   },
   "homepage": "https://github.com/parameswar-mondal-fission/nodetest#readme",
   "dependencies": {
+    "body-parser": "^1.20.0",
     "express": "^4.18.1",
-    "jest": "^28.1.0"
+    "express-handlebars": "^6.0.6",
+    "hbs": "^4.2.0",
+    "jest": "^28.1.0",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16"
   }
 }

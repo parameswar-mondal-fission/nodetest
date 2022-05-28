@@ -1,9 +1,19 @@
+'use strict';
+
 const express = require('express');
-const app = express();
+const path = require('path');
+const hbs = require('hbs');
+require('./models/db');
+
 const port = process.env.PORT || 3000;
 
+const app = express();
+
+app.set('view engine', 'hbs');
+app.set('views', path.join(__dirname, "/views/"));
+
 app.get('/', (req, res) => {
-    res.send(`Hello World! Welcome to Home!!`);
+    res.render('index');
 });
 
 // Create a Server
